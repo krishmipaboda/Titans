@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Member_Card">
+
+    <TextView
+        android:id="@+id/txt37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="145dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/txt37"
+        android:textColor="@color/txt37"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/edit16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edit16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/edit16"
+        app:layout_constraintBottom_toTopOf="@+id/edit17"
+        app:layout_constraintEnd_toEndOf="@+id/txt37"
+        app:layout_constraintStart_toStartOf="@+id/txt37"
+        app:layout_constraintTop_toBottomOf="@+id/txt37"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/edit17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginLeft="101dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="NIC"
+        app:layout_constraintBottom_toTopOf="@+id/edit18"
+        app:layout_constraintEnd_toEndOf="@+id/edit16"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/edit16"
+        app:layout_constraintTop_toBottomOf="@+id/edit16" />
+
+    <EditText
+        android:id="@+id/edit18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginRight="101dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/edit18"
+        app:layout_constraintBottom_toTopOf="@+id/edit19"
+        app:layout_constraintEnd_toEndOf="@+id/edit17"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edit17"
+        app:layout_constraintTop_toBottomOf="@+id/edit17" />
+
+    <EditText
+        android:id="@+id/edit19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginRight="101dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/edit19"
+        app:layout_constraintBottom_toTopOf="@+id/edit20"
+        app:layout_constraintEnd_toEndOf="@+id/edit18"
+        app:layout_constraintHorizontal_bias="0.009"
+        app:layout_constraintStart_toStartOf="@+id/edit18"
+        app:layout_constraintTop_toBottomOf="@+id/edit18" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginRight="101dp"
+        android:layout_marginBottom="122dp"
+        android:text="@string/button16"
+        app:backgroundTint="@color/button16"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/edit20"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edit20"
+        app:layout_constraintTop_toBottomOf="@+id/edit20" />
+
+    <EditText
+        android:id="@+id/edit20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginRight="101dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/edit20"
+        app:layout_constraintBottom_toTopOf="@+id/button16"
+        app:layout_constraintEnd_toEndOf="@+id/edit19"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edit19"
+        app:layout_constraintTop_toBottomOf="@+id/edit19" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

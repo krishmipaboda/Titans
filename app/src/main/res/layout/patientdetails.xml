@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".Patient_Details">
+
+    <TextView
+        android:textColor="#000"
+        android:id="@+id/text_patientdetails"
+        android:layout_margin="30dp"
+        android:textSize="24dp"
+        android:text="Enter Patient Details"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edittext_firstname"
+        android:layout_margin="15dp"
+        android:textSize="18dp"
+        android:hint="Enter Firstname"
+        android:background="#F2F3F4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edittext_lastname"
+        android:layout_margin="15dp"
+        android:textSize="18dp"
+        android:hint="Enter Lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:id="@+id/edittext_email"
+        android:layout_margin="15dp"
+        android:textSize="18dp"
+        android:hint="Enter Email"
+        android:background="#F2F3F4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edittext_contact"
+        android:layout_margin="15dp"
+        android:textSize="18dp"
+        android:hint="Enter Contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:id="@+id/edittext_age"
+        android:layout_margin="15dp"
+        android:textSize="18dp"
+        android:hint="Enter Age"
+        android:background="#F2F3F4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:id="@+id/button_add"
+        android:text="Add Patient"
+        android:background="#388E3C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:id="@+id/button_view"
+        android:text="View Patient"
+        android:background="#0288D1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
